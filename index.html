@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jannatul Ferdousi Lipa | Portfolio</title>
+    <meta name="description" content="Portfolio of Jannatul Ferdousi Lipa, Aspiring Data Analyst. Specializing in Data Science, EDA, Python, SQL, and Software Engineering.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Background Elements -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-grid"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <!-- Header Navigation Links -->
+            
+            <nav class="nav-links">
+                <a href="#about" class="nav-item">About</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#education" class="nav-item">Education</a>
+                <a href="#achievements" class="nav-item">Achievements</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <a href="#contact" class="btn btn-primary btn-sm">Get In Touch</a>
+                <button id="mobile-menu-btn" class="icon-btn mobile-only" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="pulsing-dot"></span> Available for Data Analyst Roles
+                    </div>
+                    <h1 class="hero-name">Jannatul Ferdousi Lipa</h1>
+                    <h2 class="hero-title">Aspiring Data Analyst</h2>
+                    <p class="hero-subtitle"><i class="fa-solid fa-graduation-cap"></i> B.Sc. in Software Engineering (Major in Data Science)</p>
+                    <p class="hero-location"><i class="fa-solid fa-location-dot"></i> Dhaka, Bangladesh</p>
+
+                    <p class="hero-bio">Aspiring Data Analyst with a B.Sc. in Software Engineering, majoring in Data Science. Skilled in Python, C, and Java through academic projects, with a strong foundation in programming, problem-solving, and analytical thinking. Familiar with data cleaning, data preprocessing, exploratory data analysis (EDA), data visualization, statistical analysis, and feature engineering through academic coursework and hands-on projects. Currently expanding expertise in SQL, data analytics tools, and machine learning fundamentals. Passionate about transforming raw data into meaningful insights to support data-driven decision-making.</p>
+
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-rocket"></i> View Projects</a>
+                        <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="mailto:mstjannatulferdousilipa@gmail.com" class="social-link" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/mst-jannatul-ferdousi-lipa-480831416/" target="_blank" rel="noopener" class="social-link" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://sites.google.com/diu.edu.bd/jannatul-ferdousi/" target="_blank" rel="noopener" class="social-link" title="Google Sites"><i class="fa-solid fa-globe"></i></a>
+                        <a href="tel:+8801311688986" class="social-link" title="Phone"><i class="fa-solid fa-phone"></i></a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="avatar-card glass-card">
+                        <div class="avatar-circle">
+                            <i class="fa-solid fa-user-astronaut"></i>
+                        </div>
+                        <h3 class="avatar-name">Jannatul Ferdousi Lipa</h3>
+                        <p class="avatar-role">Data Analyst & Python Dev</p>
+
+                        <div class="stats-grid">
+                            
+        <div class="stat-box glass-card">
+            <span class="stat-value">3.68</span>
+            <span class="stat-label">B.Sc. CGPA</span>
+        </div>
+        
+        <div class="stat-box glass-card">
+            <span class="stat-value">5.00</span>
+            <span class="stat-label">H.S.C &amp; S.S.C GPA</span>
+        </div>
+        
+        <div class="stat-box glass-card">
+            <span class="stat-value">2+</span>
+            <span class="stat-label">Featured Projects</span>
+        </div>
+        
+        <div class="stat-box glass-card">
+            <span class="stat-value">2</span>
+            <span class="stat-label">Major Awards</span>
+        </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About / Summary Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Overview</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-bar"></div>
+                </div>
+                
+                <div class="about-card glass-card">
+                    <div class="about-icon-box">
+                        <i class="fa-solid fa-chart-pie"></i>
+                    </div>
+                    <div class="about-text">
+                        <h3>Turning Complex Data into Strategic Insights</h3>
+                        <p>Aspiring Data Analyst with a B.Sc. in Software Engineering, majoring in Data Science. Skilled in Python, C, and Java through academic projects, with a strong foundation in programming, problem-solving, and analytical thinking. Familiar with data cleaning, data preprocessing, exploratory data analysis (EDA), data visualization, statistical analysis, and feature engineering through academic coursework and hands-on projects. Currently expanding expertise in SQL, data analytics tools, and machine learning fundamentals. Passionate about transforming raw data into meaningful insights to support data-driven decision-making.</p>
+
+                        <div class="highlights-grid">
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Exploratory Data Analysis (EDA) & Data Cleaning</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Statistical Modeling & Feature Engineering</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Data Visualization with Power BI & Python</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Structured Programming & MVC Web Development</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Technical Proficiency</span>
+                    <h2 class="section-title">Skills & Expertise</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="skills-wrapper">
+                    
+        <div class="skills-category">
+            <h3 class="category-title"><i class="fa-solid fa-layer-group"></i> Languages &amp; Core</h3>
+            <div class="skills-grid">
+                
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+                <div class="skill-info">
+                    <h4>Python</h4>
+                    <span class="skill-level">Advanced</span>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                <div class="skill-info">
+                    <h4>SQL</h4>
+                    <span class="skill-level">Intermediate</span>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                <div class="skill-info">
+                    <h4>C</h4>
+                    <span class="skill-level">Intermediate</span>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-java"></i></div>
+                <div class="skill-info">
+                    <h4>Java</h4>
+                    <span class="skill-level">Intermediate</span>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+                <div class="skill-info">
+                    <h4>HTML5</h4>
+                    <span class="skill-level">Advanced</span>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div>
+                <div class="skill-info">
+                    <h4>CSS3</h4>
+                    <span class="skill-level">Advanced</span>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+        
+        <div class="skills-category">
+            <h3 class="category-title"><i class="fa-solid fa-layer-group"></i> Analytics &amp; BI Tools</h3>
+            <div class="skills-grid">
+                
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-solid fa-chart-column"></i></div>
+                <div class="skill-info">
+                    <h4>Power BI</h4>
+                    <span class="skill-level">Intermediate</span>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-solid fa-file-excel"></i></div>
+                <div class="skill-info">
+                    <h4>Excel / Spreadsheets</h4>
+                    <span class="skill-level">Advanced</span>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <div class="skill-info">
+                    <h4>EDA &amp; Data Preprocessing</h4>
+                    <span class="skill-level">Advanced</span>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-solid fa-calculator"></i></div>
+                <div class="skill-info">
+                    <h4>Statistical Analysis</h4>
+                    <span class="skill-level">Intermediate</span>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-solid fa-gears"></i></div>
+                <div class="skill-info">
+                    <h4>Feature Engineering</h4>
+                    <span class="skill-level">Intermediate</span>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+        
+        <div class="skills-category">
+            <h3 class="category-title"><i class="fa-solid fa-layer-group"></i> Productivity &amp; Frameworks</h3>
+            <div class="skills-grid">
+                
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-solid fa-leaf"></i></div>
+                <div class="skill-info">
+                    <h4>Spring Boot</h4>
+                    <span class="skill-level">Academic</span>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-solid fa-code-branch"></i></div>
+                <div class="skill-info">
+                    <h4>Thymeleaf</h4>
+                    <span class="skill-level">Academic</span>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-solid fa-file-word"></i></div>
+                <div class="skill-info">
+                    <h4>MS Word</h4>
+                    <span class="skill-level">Advanced</span>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fa-solid fa-file-powerpoint"></i></div>
+                <div class="skill-info">
+                    <h4>PowerPoint</h4>
+                    <span class="skill-level">Advanced</span>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+        
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Portfolio Showcase</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="projects-grid">
+                    
+        <div class="project-card" data-category="Web Dev">
+            <div class="project-header">
+                <div class="project-badge"><i class="fa-solid fa-list-check"></i> Web Dev</div>
+                <span class="project-year">2025</span>
+            </div>
+            <h3 class="project-title">Task Tracer – Task Management System</h3>
+            <p class="project-summary">Built a web-based Task Management System to organize and track daily tasks efficiently with clean MVC architecture.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">Java</span><span class="tech-tag">Spring Boot</span><span class="tech-tag">Thymeleaf</span><span class="tech-tag">CSS</span><span class="tech-tag">MVC</span>
+            </div>
+            
+            <ul class="project-details">
+                <li>Built a web-based Task Management System to organize and track daily tasks efficiently.</li><li>Implemented complete CRUD (Create, Read, Update, Delete) functionality for task management using Spring Boot.</li><li>Developed responsive user interfaces using Thymeleaf and CSS for seamless interaction.</li><li>Integrated the frontend with the Spring Boot backend following the MVC architecture to ensure clean and maintainable code.</li>
+            </ul>
+        </div>
+        
+        <div class="project-card" data-category="Software">
+            <div class="project-header">
+                <div class="project-badge"><i class="fa-solid fa-user-graduate"></i> Software</div>
+                <span class="project-year">2024</span>
+            </div>
+            <h3 class="project-title">Student Management System (Console Application)</h3>
+            <p class="project-summary">Developed a modular console application in C for student registration, grades, attendance tracking, and library book management.</p>
+            
+            <div class="project-tech">
+                <span class="tech-tag">C</span><span class="tech-tag">Structured Programming</span><span class="tech-tag">File I/O</span><span class="tech-tag">CRUD</span>
+            </div>
+            
+            <ul class="project-details">
+                <li>Developed a console-based Student Management System to efficiently manage student records and academic information.</li><li>Implemented features for student registration, grade management, attendance tracking, library book management, and record searching.</li><li>Designed file-based data storage and CRUD operations for maintaining student and library records.</li><li>Applied structured programming principles to build a modular, user-friendly, and efficient application.</li>
+            </ul>
+        </div>
+        
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Academic Journey</span>
+                    <h2 class="section-title">Education</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="timeline">
+                    
+        <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="timeline-content glass-card">
+                <div class="timeline-header">
+                    <h3>B.Sc. in Software Engineering</h3>
+                    <span class="timeline-period">2022 – 2025</span>
+                </div>
+                <h4 class="timeline-sub">Daffodil International University, Bangladesh</h4>
+                <div class="score-badge">CGPA: 3.68</div>
+                <p class="timeline-desc">Specialized coursework in Data Preprocessing, EDA, Data Visualization, Feature Engineering &amp; Statistical Analysis.</p>
+            </div>
+        </div>
+        
+        <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-school"></i></div>
+            <div class="timeline-content glass-card">
+                <div class="timeline-header">
+                    <h3>Higher Secondary Certificate (H.S.C.)</h3>
+                    <span class="timeline-period">2017 – 2019</span>
+                </div>
+                <h4 class="timeline-sub">Police Lines School &amp; College, Rangpur</h4>
+                <div class="score-badge">GPA: 5.00</div>
+                <p class="timeline-desc">Achieved perfect GPA of 5.00 with focus on Higher Mathematics and Physics.</p>
+            </div>
+        </div>
+        
+        <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-award"></i></div>
+            <div class="timeline-content glass-card">
+                <div class="timeline-header">
+                    <h3>Secondary School Certificate (S.S.C.)</h3>
+                    <span class="timeline-period">2007 – 2016</span>
+                </div>
+                <h4 class="timeline-sub">Sathibari M. L. High School, Rangpur</h4>
+                <div class="score-badge">GPA: 5.00</div>
+                <p class="timeline-desc">Achieved perfect GPA of 5.00 with academic excellence awards.</p>
+            </div>
+        </div>
+        
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Recognitions</span>
+                    <h2 class="section-title">Honors & Achievements</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="achievements-grid">
+                    
+        <div class="achievement-card glass-card">
+            <div class="achievement-icon">
+                <i class="fa-solid fa-trophy"></i>
+            </div>
+            <div class="achievement-body">
+                <div class="achievement-top">
+                    <span class="badge-tag">🏆 Champion</span>
+                    <span class="achievement-year">2023</span>
+                </div>
+                <h3>Champion – Bizz Case Battle 2023</h3>
+                <h4>DIU Business &amp; Analytical Event</h4>
+                <p>Secured 1st position overall by solving complex real-world business case studies, presenting data-backed strategies, and optimizing operational workflows.</p>
+            </div>
+        </div>
+        
+        <div class="achievement-card glass-card">
+            <div class="achievement-icon">
+                <i class="fa-solid fa-medal"></i>
+            </div>
+            <div class="achievement-body">
+                <div class="achievement-top">
+                    <span class="badge-tag">🌟 Participant</span>
+                    <span class="achievement-year">2025</span>
+                </div>
+                <h3>Participant – DIU 3 MT Competition 2025</h3>
+                <h4>Daffodil International University</h4>
+                <p>Participated in the 3 Minute Thesis (3MT) competition, presenting research concepts and data insights effectively within 180 seconds to a panel of judges.</p>
+            </div>
+        </div>
+        
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Connect With Me</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="contact-container">
+                    <div class="contact-info glass-card">
+                        <h3>Let's Collaborate!</h3>
+                        <p>I am open to data analyst opportunities, research collaborations, and software projects. Feel free to reach out!</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:mstjannatulferdousilipa@gmail.com">mstjannatulferdousilipa@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <a href="tel:+8801311688986">+8801311688986</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <h4>Location</h4>
+                                    <span>Dhaka, Bangladesh</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fa-brands fa-linkedin"></i></div>
+                                <div>
+                                    <h4>LinkedIn</h4>
+                                    <a href="https://www.linkedin.com/in/mst-jannatul-ferdousi-lipa-480831416/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fa-solid fa-globe"></i></div>
+                                <div>
+                                    <h4>Google Sites</h4>
+                                    <a href="https://sites.google.com/diu.edu.bd/jannatul-ferdousi/" target="_blank" rel="noopener">Academic Webpage</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form id="contact-form" class="contact-form glass-card" action="https://formspree.io/f/sample" method="POST">
+                        <h3>Send a Message</h3>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Project Inquiry / Job Opportunity" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Hi Jannatul, I would like to discuss..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+                        <div id="form-status" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <p>&copy; 2026 <strong>Jannatul Ferdousi Lipa</strong>. Built with Python & Hosted on Netlify.</p>
+            </div>
+            <div class="footer-right">
+                <a href="#hero" class="back-to-top"><i class="fa-solid fa-arrow-up"></i> Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+# Netlify Build Configuration
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  # The build command executes Python build script before serving static files
+  command = "python build.py"
+  
+  # Directory that contains the built static files to publish
+  publish = "."
+
+[build.environment]
+  PYTHON_VERSION = "3.11"
+
+# Headers for performance & security
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
