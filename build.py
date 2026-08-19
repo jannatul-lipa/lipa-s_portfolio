@@ -124,7 +124,7 @@ def generate_html(data):
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css?v=2">
 </head>
 <body>
 
@@ -136,7 +136,7 @@ def generate_html(data):
     <!-- Navigation Header -->
     <header class="navbar">
         <div class="container nav-container">
-            <!-- Header Navigation Links -->
+            <a href="#" class="nav-logo">Jannatul<span class="logo-accent">.</span></a>
             
             <nav class="nav-links">
                 <a href="#about" class="nav-item">About</a>
@@ -145,13 +145,14 @@ def generate_html(data):
                 <a href="#education" class="nav-item">Education</a>
                 <a href="#achievements" class="nav-item">Achievements</a>
                 <a href="#contact" class="nav-item">Contact</a>
+                <a href="#contact" class="btn btn-primary btn-sm mobile-menu-cta mobile-only"><i class="fa-solid fa-paper-plane"></i> Get In Touch</a>
             </nav>
 
             <div class="nav-actions">
                 <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme">
                     <i class="fa-solid fa-moon"></i>
                 </button>
-                <a href="#contact" class="btn btn-primary btn-sm">Get In Touch</a>
+                <a href="#contact" class="btn btn-primary btn-sm nav-cta-btn">Get In Touch</a>
                 <button id="mobile-menu-btn" class="icon-btn mobile-only" aria-label="Toggle Menu">
                     <i class="fa-solid fa-bars"></i>
                 </button>

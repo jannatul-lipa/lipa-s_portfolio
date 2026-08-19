@@ -40,15 +40,19 @@ document.addEventListener('DOMContentLoaded', () => {
             navLinks.classList.toggle('active');
             const isOpen = navLinks.classList.contains('active');
             mobileMenuBtn.querySelector('i').className = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+            mobileMenuBtn.setAttribute('aria-expanded', isOpen);
+            document.body.style.overflow = isOpen ? 'hidden' : '';
         });
     }
 
-    // Close mobile nav when clicking link
-    document.querySelectorAll('.nav-item').forEach(link => {
+    // Close mobile nav when clicking link or mobile menu cta
+    document.querySelectorAll('.nav-item, .mobile-menu-cta').forEach(link => {
         link.addEventListener('click', () => {
             if (navLinks.classList.contains('active')) {
                 navLinks.classList.remove('active');
                 mobileMenuBtn.querySelector('i').className = 'fa-solid fa-bars';
+                mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
             }
         });
     });
